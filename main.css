@@ -1,0 +1,288 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    display: inline-block;
+    padding: 15px;
+    margin: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 10px;
+    border-right: 2px solid rgb(255, 155, 32);
+}
+
+footer li {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgb(255, 155, 32);
+
+}
+
+div.div-info p {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-bottom: 2px solid rgb(255, 155, 32);
+    
+}
+div.services-info p {
+    font-size: 17px;
+    
+}
+div.price-calc-about h2 {
+    letter-spacing: 5px;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(255, 155, 32);
+}
+div.price-calc-about p {
+    font-size: 18px;
+}
+.active {
+    color: rgb(255, 155, 32);
+}
+.footer-div-ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-div input[type="text"] {
+    width: 275px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+}
+
+.contact input[type="text"] {
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact input[type="submit"] {
+    border: 2px solid #ccc;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+p.contact {
+    margin: 0;
+    font-size: 18px;
+}
+
+.gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flex {
+    display: flex;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-40px {
+    height: 40px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.max-w {
+    max-width: 1080px;
+}
+
+.centered {
+    margin: 0 auto;
+}
+.text-block{
+    text-align: justify;
+}
+
+.centered-v {
+    align-items: center;
+}
+
+.p-0-20 {
+    padding: 0 20px;
+}
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
+.p-top-25 {
+    padding-top: 25px;
+}
+
+.flex-d-row {
+    flex-direction: row;
+}
+.flex-d-column {
+    flex-direction: column;
+}
+.m-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.h-fit {
+    height: fit-content;
+}
+
+.white {
+    background-color: white;
+}
+
+.seashell {
+    background-color: seashell;
+}
+
+.orange {
+    color: rgb(255, 155, 32);
+}
+.orange-bg {
+    background-color: rgb(253, 173, 75);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-640 {
+    height: 640px;
+}
+
+.h-450 {
+    height: 450px;
+}
+
+.h-175 {
+    height: 175px;
+}
+.w-320{
+    width: 320px;
+}
+
+.h-240-w-320 {
+    height: 240px;
+    width: 320px;
+}
+
+.h-330-w-320 {
+    height: 330px;
+    width: 320px;
+}
+
+.relative {
+    position: relative;
+}
+
+.top-5 {
+    top: 5%;
+}
+
+.b-radius-5 {
+    border-radius: 5px;
+}
+
+.nav-div {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-div-p {
+    display: flex;
+}
+
+.nav-main {
+    margin: 0 auto;
+}
+
+.footer-div {
+    width: 1320px;
+    background-color: bisque;
+}
