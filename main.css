@@ -104,6 +104,9 @@ div.price-calc-window{
     background-color: #dedcdc;
     cursor: pointer;
 }
+.b-radius-10{
+    border-radius: 10px;
+}
 .dropdown{
     box-sizing: border-box;
     width: 45%;
