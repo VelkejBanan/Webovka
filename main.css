@@ -90,6 +90,16 @@ div.price-calc input[type="button"]:hover{
         background-color: rgb(255, 202, 137);
         cursor: pointer;
 }
+div.price-calc-window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 5px dashed #999999;
+    width: 95%;
+    background-color: #dedcdc;
+    cursor: pointer;
+}
 .active {
     color: rgb(255, 155, 32);
 }
