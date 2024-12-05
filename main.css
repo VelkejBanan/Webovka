@@ -2,7 +2,6 @@
 * {
     /*font-family: 'Courier New', Courier, monospace;*/
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -17,7 +16,7 @@ header {
 
 body {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
 }
 
@@ -40,7 +39,6 @@ header li a {
     color: black;
     padding: 0;
     margin: 0;
-
 }
 
 footer ul {
@@ -73,11 +71,11 @@ li a.active{
 
 div.div-info p {
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     letter-spacing: 5px;
     border-bottom: 2px solid rgb(255, 155, 32);
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 div.services-info p {
     font-size: 17px;
@@ -105,6 +103,9 @@ div.price-calc-window{
     width: 95%;
     background-color: #dedcdc;
     cursor: pointer;
+}
+.courier-new{
+    font-family: 'Courier New', Courier, monospace;
 }
 .b-radius-10{
     border-radius: 10px;
