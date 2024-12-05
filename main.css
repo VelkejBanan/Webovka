@@ -61,7 +61,10 @@ footer li a {
     color: black;
 }
 
+/*li a:hover {
+    color: rgb(253, 173, 75);
 
+}*/
 li a.active{
     border-bottom: rgb(255, 155, 32) 2px solid;
 }
