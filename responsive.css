@@ -125,3 +125,11 @@
         border: none;
     }
 }
+@media screen and (max-width: 400px) {
+    .main-info-inner {
+        padding: 25px 0;
+    }
+    .price-calc-inner {
+        padding: 25px 0;
+    }
+}
