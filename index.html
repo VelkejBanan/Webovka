@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="responsive.css">
     <base href="https://velkejbanan.github.io/Webovka/">
     <title>TROJDimenz</title>
 </head>
@@ -31,25 +32,25 @@
             </div>
         </div>
     </header>
-    <div class="h-fit box-shadow m-top-50 white max-w centered b-radius-10">
-        <div class="flex flex-d-row p-top-25 p-0-20" style="padding-bottom: 25px;">
-            <div class="flex h-fit flex-d-column centered-v" style="width: 60%; font-size: 20px;">
+    <div class="main-info h-fit box-shadow m-top-50 white max-w centered b-radius-10">
+        <div class="main-info-inner flex flex-d-row p-top-25 p-0-20 p-bottom-25">
+            <div class="flex h-fit flex-d-column centered-v w-60" style="font-size: 20px;">
                 <p>Jsme odborníci na 3D tisk s dlouholetými zkušenostmi s lokalitou v Hradci Králové</p>
                 <p>Specializujeme se na zakázkovou výrobu prototypů, funkčních dílů a designových modelů</p>
                 <p>Nabízíme špičkovou kvalitu tisku a individuální přístup ke každé zakázce</p>
             </div>
-            <div class="h-fit" style="width: 40%;">
-                <div class="flex" style="height: 100%; justify-content: end;">
-                    <img style="height: 259px;" src="fotogalerie/pexels-introspectivedsgn-12698670.jpg" alt="">
+            <div class="h-fit w-40">
+                <div class="flex justify-end" style="height: 100%;">
+                    <img class="w-100" style="height: 259px;" src="fotogalerie/pexels-introspectivedsgn-12698670.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
 
     <!--Testovací část-->
-    <div class="m-top-50 max-w centered h-fit" style="padding-bottom: 25px;">
-        <div class="flex text-center" style="justify-content: space-between;">
-            <div class="flex box-shadow p-top-25 white h-100 flex-d-column b-radius-10" style="width: 32%;">
+    <div class="m-top-50 max-w centered h-fit">
+        <div class="services flex text-center justify-between">
+            <div class="services-inner s-i-1 flex box-shadow p-top-25 w-32 white h-100 flex-d-column b-radius-10">
                 <div class="p-0-20">
                     <div class="div-info w-100 h-fit">
                         <p>ZAKÁZKOVÝ 3D TISK</p>
@@ -64,7 +65,7 @@
                 </div>
 
             </div>
-            <div class="flex box-shadow p-top-25 white h-100 flex-d-column b-radius-10" style="width: 32%;">
+            <div class="services-inner s-i-2 flex box-shadow p-top-25 w-32 white h-100 flex-d-column b-radius-10">
                 <div class="p-0-20">
                     <div class="div-info w-100 h-fit">
                         <p>PRÁCE NA PROTOTIPECH</p>
@@ -80,7 +81,7 @@
                 </div>
 
             </div>
-            <div class="flex box-shadow p-top-25 white h-100 flex-d-column b-radius-10" style="width: 32%;">
+            <div class="services-inner flex box-shadow p-top-25 w-32 white h-100 flex-d-column b-radius-10">
                 <div class="p-0-20">
                     <div class="div-info w-100 h-fit">
                         <p>MODELOVÁNÍ NA ZAKÁZKU</p>
@@ -101,8 +102,8 @@
     </div>
     <!--Testovací část-->
 
-    <div class="price-calc-about box-shadow h-300 m-top-50 white max-w centered b-radius-10">
-        <div class="flex flex-d-row p-top-25 p-0-20" style="justify-content: space-between;">
+    <div class="price-calc-about box-shadow h-fit m-top-50 white max-w centered b-radius-10">
+        <div class="price-calc-inner flex flex-d-row p-top-25 p-0-20 justify-between p-bottom-25">
             <div class="w-50 h-250">
                 <div class="text-center" style="height: 75%;">
                     <div class="h-fit">
@@ -119,7 +120,7 @@
                         onclick="window.location.href = 'cenovaKalkulace.html'" value="Online kalkulačka">
                 </div>
             </div>
-            <div class="h-250" style="width: 40%;">
+            <div class="h-250 w-40">
                 <div>
                     <img class="w-100 h-250" src="fotogalerie/quan-jing-WW359HyHwok-unsplash.jpg" alt="">
                 </div>
@@ -127,18 +128,18 @@
         </div>
 
     </div>
-    <footer class="w-100 m-top-50 h-300 white ">
-        <div class="p-top-25" style="margin: 0 75px;">
+    <footer class="footer-main w-100 m-top-50 h-300 white ">
+        <div class="footer-inner p-top-25 m-0-75">
             <div class="flex flex-d-row w-100 h-250 centered bold">
-                <div class="h-240-w-320 flex" style="align-items: center;">
-                    <div style="align-items: start;">
+                <div class="h-240-w-320 flex centered-v">
+                    <div>
                         <div>
                             <p>© Studentská zápočtová práce 2024/25</p>
                             <p>E-mail: <br><span class="orange">kucerlu4@uhk.cz</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="h-240-w-320 centered flex" style="align-items: center;">
+                <div class="h-240-w-320 centered flex centered-v">
                     <div class="flex flex-d-column centered text-center">
                         <div class="bold">
                             <p class="m-0 orange">Kučera Lukáš</p>
@@ -152,8 +153,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="h-240-w-320" style="height: 250px;">
-                    <div class="footer-div-ul  w-100 bold">
+                <div class="h-240-w-320">
+                    <div class="footer-div-ul w-100 bold">
                         <ul>
                             <li><a href="index.html">Domů</a></li>
                             <li><a href="fotogalerie.html">Fotogalerie</a></li>

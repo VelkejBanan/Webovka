@@ -229,11 +229,18 @@ p.contact {
 .w-100 {
     width: 100%;
 }
-
+.w-60 {
+    width: 60%;
+}
 .w-50 {
     width: 50%;
 }
-
+.w-40 {
+    width: 40%;
+}
+.w-32{
+    width: 32%;
+}
 .h-40px {
     height: 40px;
 }
@@ -260,11 +267,15 @@ p.contact {
 .p-0-20 {
     padding: 0 20px;
 }
-
+.p-bottom-25 {
+    padding-bottom: 25px;
+}
 .m-top-50 {
     margin-top: 50px;
 }
-
+.m-0-75 {
+    margin: 0 75px;
+}
 .p-top-25 {
     padding-top: 25px;
 }
@@ -353,7 +364,15 @@ p.contact {
 .b-radius-5 {
     border-radius: 5px;
 }
-
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-between{
+    justify-content: space-between;
+}
 .nav-div {
     justify-content: flex-end;
     align-items: center;

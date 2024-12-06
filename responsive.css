@@ -1,0 +1,72 @@
+@media screen and (max-width: 956px) {
+    /*Úvodní info*/
+    * {
+        max-width: 956px;
+    }
+    div.main-info{
+        width: 100%;
+    }
+    div.main-info-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    div.main-info-inner div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    div.main-info-inner div img {
+        width: fit-content;
+    }
+    /*Cenová kalkulačka*/
+    div.price-calc {
+        width: 100%;
+    }
+    div.price-calc-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    div.price-calc-inner div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    div.price-calc-inner div img {
+        width: fit-content;
+    }
+    /*Footer*/
+    .footer-inner{
+        margin: 0 25px;
+    }
+}
+@media screen and (max-width: 880px){
+    * {
+        max-width: 880px;
+    }
+    /*Služby*/
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .services-inner{
+        width: 45%;
+    }
+    .services-info{
+        height: 230px;
+    }
+    .s-i-1{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .s-i-2{
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    
+}
