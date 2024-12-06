@@ -279,7 +279,9 @@ p.contact {
 .p-top-25 {
     padding-top: 25px;
 }
-
+.none{
+    display: none;
+}
 .flex-d-row {
     flex-direction: row;
 }

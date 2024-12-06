@@ -67,6 +67,61 @@
         margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 700px){
-    
+@media screen and (max-width: 600px){
+    /*Navigace*/
+    .nav-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-div{
+        justify-content: center;
+    }
+    .nav-div ul{
+        display: flex;
+        align-items: center;
+    }
+    /*Služby*/
+    .services-inner{
+        width: 100%;
+    }
+    .s-i-1{
+        margin-right: 0;
+    }
+    .s-i-2{
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width: 485px){
+    /*Navigace*/
+    header{
+        position: relative;
+    }
+    .nav-div{
+        justify-content: center;
+    }
+    .nav-div ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*Footer*/
+    .footer-main{
+        height: fit-content;
+        width: 100%;
+        
+    }
+    .footer-inner div{
+        height: fit-content;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-inner ul{
+        display: none;
+        border: none;
+    }
 }
