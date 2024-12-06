@@ -63,6 +63,23 @@
         margin-left: 10px;
         margin-bottom: 20px;
     }
+    /*Kontakt*/
+    .contact-main{
+        display: flex;
+        height: fit-content;
+        padding-bottom: 25px;
+    }
+    .contact-main-inner{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .contact-main-inner div{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 600px){
     /*Navigace*/
