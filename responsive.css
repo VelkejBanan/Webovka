@@ -124,6 +124,8 @@
         display: none;
         border: none;
     }
+
+    /*Fotogalerie*/
 }
 @media screen and (max-width: 400px) {
     .main-info-inner {
@@ -132,4 +134,5 @@
     .price-calc-inner {
         padding: 25px 0;
     }
+
 }
