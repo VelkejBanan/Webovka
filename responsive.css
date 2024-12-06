@@ -1,8 +1,5 @@
 @media screen and (max-width: 956px) {
     /*Úvodní info*/
-    * {
-        max-width: 956px;
-    }
     div.main-info{
         width: 100%;
     }
@@ -23,17 +20,17 @@
     div.price-calc {
         width: 100%;
     }
-    div.price-calc-inner {
+    div.price-calc-inner-i {
         display: flex;
         flex-direction: column;
     }
-    div.price-calc-inner div {
+    div.price-calc-inner-i div {
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
     }
-    div.price-calc-inner div img {
+    div.price-calc-inner-i div img {
         width: fit-content;
     }
     /*Footer*/
@@ -90,6 +87,44 @@
     }
     .s-i-2{
         margin-left: 0;
+    }
+    /*Kalkulátor*/
+    .price-calc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-calc-inner{
+        display: flex;
+        flex-direction: column;
+    }
+    .price-calc-inner div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .price-calc li{
+        margin: 10px 0;
+        text-align: left;
+    }
+    .dropdown div{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .dropdown span{
+        width: 100%;
+        text-align: center;
+    }
+    .price-calc-input{
+        padding-top: 25px;
+    }
+    .price-calc-input div{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
     }
 
 }
